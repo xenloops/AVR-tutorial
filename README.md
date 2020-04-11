@@ -7,16 +7,17 @@ Many seasoned software engineers have the impression that writing and flashing f
 
 ## Lessons
 
-### Season 1 (Coming week of 6 April 2020)
-1. Set up lab: breadboard w/PS, BusPirate, AVR chip, AVR programmer, text editor
-2. Light an LED: simple program to light LED, warn about using resistor with LED
-3. Push my button to light LED... direct, then toggle
-4. Push my button to light LED... by interrupt.
-5. Flasher: intro to timer and interrupts to flash LED
-6. Traffic lights
-7. Dimming light: intro to PWM to dim LED
-8. Fun with numeric LED: countdown, cycle around.
-9. Combine button with LED counter and randomizer. LED shows numbers flashing by, when button pressed it stops on NEXT number generated.
+0. Set up lab: breadboard, AVR chip, BusPirate, AVR programmer, text editor
+
+### Season 1 (Starting April 2020)
+1. Light an LED: simple program to light LED, warn about using resistor with LED
+2. Push my button to light LED... direct, then toggle
+3. Push my button to light LED... by interrupt.
+4. Flasher: intro to timer and interrupts to flash LED
+5. Traffic lights
+6. Dimming light: intro to PWM to dim LED
+7. Fun with numeric LED: countdown, cycle around.
+8. Combine button with LED counter and randomizer. LED shows numbers flashing by, when button pressed it stops on NEXT number generated.
 
 
 ## About the author
