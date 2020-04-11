@@ -4,6 +4,11 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 ## Lesson 0: Lab Setup
 
 ### What you'll need
+
+|![Breadboard](images/00-00-breadboard.png)|![Microprocessor](images/00-00-avr-chip.png)|![BusPirate](images/00-00-BusPirate.jpg)|
+|--|--|--|
+|Breadboard|Microprocessor|BusPirate|
+
 1. Breadboard/prototyping board and power supply. These are usually sold together.
 1. Atmel (now Microchip) AVR processor. I use the ATmega88, but others will work fine. Older or second-hand ones are usually cheaper
 and plentiful. Optionally, also pick up a chip socket. If you need to remove the chip later, and the socket's pins are broken,
@@ -21,8 +26,6 @@ There are other ways of getting a binary onto a chip, including DIY circuits.
 
 All of these are cheap and easy to find. AVRDUDE is free from the above link.
 
-[photos]
-
 ### Setup
 1. Attach the power supply to the breadboard.
 1. If adjustable, set the voltage on the breadboard to 3.3 V.
@@ -31,6 +34,7 @@ microscopic components within a microchip can be destroyed by static discharges.
 1. Check that the pins on the microchip are straight. If any are bent, carefully straighten them.
 1. Ease the chip's pins into the holes near the middle of the breadboard, such that the chip is straddling the channel 
 bisecting the breadboard lengthwise. Gently press the chip down until its bottom touches the breadboard.
+![Seating the chip](images/00-00-chip-seated.png)
 1. Find the pinout diagram in the chip's datasheet (make sure you're looking at the right chip format and number) and 
 look for the two power pins: VCC (+) and GND (-). There are probably a couple of pairs depending on the chip you're using.
 The GND you use doesn't matter, and there will probably be one on each side to make life easier. Be sure you don't use AVCC 
