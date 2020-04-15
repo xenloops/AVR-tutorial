@@ -7,7 +7,7 @@ Many seasoned software engineers have the impression that writing and flashing f
 
 ## Lessons
 
-[0. Set up lab: breadboard, AVR chip, BusPirate, AVR programmer, text editor](https://github.com/xenloops/AVR-tutorial/blob/master/s00e00-lab-setup.md)
+[0. Set up lab: breadboard, AVR chip, BusPirate, AVR programmer, text editor](00-00-lab-setup.md)
 
 ### Season 1 (Starting April 2020)
 1. Light an LED: simple program to light LED programmatically.
