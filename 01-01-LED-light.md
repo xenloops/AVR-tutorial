@@ -18,8 +18,8 @@ Please note that you really do want to protect your LEDs. LEDs may be cheap (hop
 ### Setup
 #### Hardware
 1. Do everything in [Lesson 0](00-00-lab-setup.md).
-1. Grab your LED and insert its leads between the PB1 pin on the processor (pin 15 on the ATmega88) and the adjacent unused hole on the breadboard (but not a power rail).
-1. Stick the resistor between the LED and the negative power rail.
+1. Grab your LED and insert its leads between the PB1 pin on the processor (pin 15 on the ATmega88) and the adjacent unused hole on the breadboard (but not a power rail). Check which way the LED is facing -- the lead from the larger piece of metal goes to PB1 on the chip.
+1. Stick the resistor between the LED and the positive power rail. 
 
 Your breadboard should look something like this:
 ![LED connection closeup](images/01-01-LED-connect.jpg)
