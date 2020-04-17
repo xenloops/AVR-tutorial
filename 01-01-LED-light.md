@@ -36,7 +36,7 @@ Yes, that's right. Software is what code written for the desktop, web sites, and
 `avr-objcopy -j .text -j .data -O ihex 01-01.elf 01-01.hex`
 1. Finally, make sure BisPirate and your breadboard are connected and powered. Flash the firmware:
 `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-01.hex`
-1. After the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) are finished on BusPirate, you should be able to run the program. Power the breadboard and the LED should light, but not just because you applied power -- the chip is running your code, which is lighting the LED. Your code actually changed soemthing in the physical world!
+1. After the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) are finished on BusPirate, you should be able to run the program. Power the breadboard and the LED should light, but not just because you applied power -- the chip is running your code, which is lighting the LED. Your code actually changed something in the physical world!
 
 Now it's time to move on to the [next lesson](01-02-LED-button.md) (if not available yet, keep your eyes open)!
 
