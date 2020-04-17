@@ -57,7 +57,7 @@ distribution's repository. (If you're not already running Linux, get out. Joking
 myriad guides that will show you how to make a computer truly useful)
 1. Test the connection: open a Terminal, and as root enter: `avrdude -c buspirate -P /dev/ttyUSB0 -p m88p`
 
-There you go, your very own lab setup! Now it's time to move on to the [next lesson](01-01-LED-light) (if not available yet, keep your eyes open)!
+There you go, your very own lab setup! Now it's time to move on to the [next lesson](01-01-LED-light.md) (if not available yet, keep your eyes open)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @zenloops on Twitter.
 
