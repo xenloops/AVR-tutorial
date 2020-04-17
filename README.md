@@ -10,7 +10,7 @@ Many seasoned software engineers have the impression that writing and flashing f
 [0. Set up lab: breadboard, AVR chip, BusPirate, AVR programmer, text editor](00-00-lab-setup.md)
 
 ### Season 1 (Starting April 2020)
-1. Light an LED: simple program to light LED programmatically.
+1. [Light an LED: simple program to light LED programmatically.](01-01-LED-light.md)
 2. Push a button to light an LED... pushbutton, then toggle.
 3. Push a button to light an LED... by interrupt.
 4. Flasher: intro to timer and interrupts to flash an LED.
