@@ -40,5 +40,5 @@ Yes, that's right. Software is what code written for the desktop, web sites, and
 
 Now it's time to move on to the [next lesson](01-02-LED-button.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @zenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
