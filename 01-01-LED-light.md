@@ -5,15 +5,16 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ### What you'll need
 
-|![Breadboard](images/00-00-breadboard.png)|![Microprocessor](images/00-00-avr-chip.png)|![BusPirate](images/00-00-BusPirate.jpg)|
-|--|--|--|
-|Breadboard|Microprocessor|BusPirate|
-
 1. Everything in [Lesson 0](00-00-lab-setup.md).
 1. A light emitting diode, or LED.
 1. A resistor to protect the LED from the full current of the power supply.
 
-Please note that you really do want to protect your LEDs. LEDs may be cheap (hopefully you're not using some expensive 5 MW LED that turns night into day for this), but it's all too easy to burn out an LED, only to find you've burned through your entire stash. (Burning out components is part of the learning curve for EEs, so don't fret when you do it.) If you purchased yours, they should come with some specs on the package. All you need is to divide the difference between the supplied voltage and LED's forward voltage by the LED's forward current (in amps). There are also free LED resistor calcuators you can search for; I like [ledcalculator.net](https://ledcalculator.net) for its simplicity and completeness. If you pulled your LED out of some derelict device or just don't know its specs, toss in a low-ohm resistor -- you still want it to light.
+Please note that you really do want to protect your LEDs. LEDs may be cheap (hopefully you're not using some expensive 5 W LED that turns night into day for this), but it's all too easy to burn out an LED, only to find you've burned through your entire stash. (Burning out components is part of the learning curve for EEs, so don't fret when you do it.) If you purchased yours, they should come with some specs on the package. All you need is to divide the difference between the supplied voltage and LED's forward voltage by the LED's forward current (in amps). There are also free LED resistor calcuators you can search for; I like [ledcalculator.net](https://ledcalculator.net) for its simplicity and completeness. If you pulled your LED out of some derelict device or just don't know its specs, toss in a low-ohm resistor -- you still want it to light.
+
+LEDs are semiconductors that normally allow current in one direction -- that's what makes them diodes. It's essential to remember that they must be connected the right direction in order to do their job. If you look closely at the LED, you'll see that one lead ends in a larger plate than the other. The larger plate goes to the negative side of the power source.
+
+|Positive|![LED](images/01-01-LED.jpg)|Negative|
+|--|--|--|
 
 ### Setup
 #### Hardware
