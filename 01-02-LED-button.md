@@ -7,6 +7,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 1. Everything in [Lesson 1](01-01-LED-light.md).
 1. A normally open (NO) pushbutton switch.
+1. Another resistor; I used a 10 kilohm one, something to decrease the current flowing to the chip.
 
 ![Button](images/01-02-button.jpg)
 
