@@ -9,6 +9,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 1. A normally open (NO) pushbutton switch.
 
 ![Button](images/01-02-button.jpg)
+
 A pushbutton, as you know, is a momentary switch that makes a connection when pressed (NO), or released (normally closed, NC), to close or open a circuit. They're everywhere: calculators, keyboards, vehicles, even doorbells. We're going to use one to allow a voltage to one pin on the processor, and when the chip "sees" the signal, it will light the LED.
 
 Yes, yes, this would be simpler to do without the chip -- if all you wanted was a switch to light an LED. But we're not building a flashlight, we're building the future.
@@ -46,7 +47,7 @@ No changes from the first part.
 #### Firmware
 1. Download the code from [Code 01-02 Rev A](code/01-02a.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to differences in the behavior from the code in the first part.
 1. Enter the same commands as before, replacing "01-02" with "01-02a".
-1. Power the breadboard and press the button. Then press it again. And again. Pretty cool, eh?
+1. Power the breadboard and press the button. Then press it again. And again. Try holding it down. Pretty cool, eh? But, it's a little glitchy, you'll find. We'll fix that next.
 
 You could modify the behavior further, e.g. to make it light every third time you press the button. Or randomize how many button presses it takes before the LED lights. Surprise your friends, fool your enemies.
 
