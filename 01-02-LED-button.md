@@ -17,9 +17,11 @@ Yes, yes, this would be simpler to do without the chip -- if all you wanted was 
 ### Setup
 #### Hardware
 1. Do everything in [Lesson 1](01-01-LED-light.md).
-1. Connect one side of the switch to PB0 (Pin 14 on the ATMega88), and the other side to the [neg] power rail.
+1. Connect one side of the switch to PB0 (Pin 14 on the ATMega88), and the other side to the negative power rail.
+1. Connect the resistor between PB0 and the positive power rail.
 
 Your breadboard should look something like this:
+
 ![Button connection closeup](images/01-02-button-connect.jpg)
 
 #### Firmware
