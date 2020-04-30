@@ -28,13 +28,13 @@ Your breadboard should look something like this:
 #### Firmware
 1. Download the code from [Code 01-02](code/01-02.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to how the button is set up.
 1. Open a Terminal in the directory holding the code.
-1. Enter the following to compile your C file: 
+1. Enter the following to compile your C file:  
 `avr-gcc -g -Os -mmcu=atmega88 -c 01-02.c`
-1. Assuming all went well, you won't see anything but a new prompt appear. Now do the linking:
+1. Assuming all went well, you won't see anything but a new prompt appear. Now do the linking:  
 `avr-gcc -g -mmcu=atmega88 -o 01-02.elf 01-02.o`
-1. Again if all went well, you won't see anything but a new prompt appear. Now turn it into a flashable binary:
+1. Again if all went well, you won't see anything but a new prompt appear. Now turn it into a flashable binary:  
 `avr-objcopy -j .text -j .data -O ihex 01-02.elf 01-02.hex`
-1. Finally, make sure BisPirate and your breadboard are connected and powered. Flash the firmware:
+1. Finally, make sure BisPirate and your breadboard are connected and powered. Flash the firmware:  
 `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-02.hex`
 1. After BusPirate finishes, you should be able to run the program. Power the breadboard and press the button. The LED should light, but not just because you pressed the button -- the chip saw that you pressed the button, and ran that part of your code that handles the putton press, which is lighting the LED. 
 
