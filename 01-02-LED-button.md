@@ -54,6 +54,21 @@ No changes from the first part.
 
 You could modify the behavior further, e.g. to make it light every third time you press the button. Or randomize how many button presses it takes before the LED lights. Surprise your friends, fool your enemies.
 
+### More about the firmware
+Some additional code is needed to handle the button's functionality:
+
+* `CLEARBIT(DDRB, PINB0);` set the Data Direction on Port B, Pin 0 to input
+* `SETBIT(PORTB, PINB0);` activate the internal pull-up resistor on Port B, Pin 0
+* `if (!CHECKBIT(PINB, PINB0))` check if the button is pressed
+
+The second version introduces a primitive delay function:
+
+* `#define F_CPU 1000000UL` specify what speed the chip is running
+* `#include <util/delay.h>` use the delay header file
+* `#define WAIT(ms); _delay_ms(ms)` simplify calling the `_delay_ms()` function
+* `WAIT(100);` stops processing for 0.1 second
+
+
 Now it's time to move on to the [next lesson](01-03-LED-button-int.md) (if not available yet, keep your eyes open)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
