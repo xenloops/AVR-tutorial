@@ -30,13 +30,13 @@ Your breadboard should look something like this:
 Yes, that's right. Software is what code written for the desktop, web sites, and mobile apps is turned into. Firmware is what the black magic awesomeness you're about to write gets compiled into, destined for uploading (or flashing) to run on an actual chip -- without all that mucking about with runtime interpreters or operating systems. This is the big time, my friend.
 1. Download the code from [Code 01-01](code/01-01.c) and save it to a convenient directory. Take a look at the code. This one's simple and commented, but you should start to get a feel for how it's done.
 1. Open a Terminal in the directory holding the code. Oh yes, a Terminal. No wimpy IDEs or childish GUIs for you, you're going hard core unto the breach. Don't worry, you got this.
-1. Enter the following to compile your C file: 
+1. Enter the following to compile your C file:  
 `avr-gcc -g -Os -mmcu=atmega88 -c 01-01.c`
-1. Assuming all went well, you won't see anything but a new prompt appear. Now do the linking:
+1. Assuming all went well, you won't see anything but a new prompt appear. Now do the linking:  
 `avr-gcc -g -mmcu=atmega88 -o 01-01.elf 01-01.o`
-1. Again if all went well, you won't see anything but a new prompt appear. Now turn it into a flashable binary:
+1. Again if all went well, you won't see anything but a new prompt appear. Now turn it into a flashable binary:  
 `avr-objcopy -j .text -j .data -O ihex 01-01.elf 01-01.hex`
-1. Finally, make sure BisPirate and your breadboard are connected and powered. Flash the firmware:
+1. Finally, make sure BisPirate and your breadboard are connected and powered. Flash the firmware:  
 `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-01.hex`
 1. After the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) are finished on BusPirate and you see `avrdude done.  Thank you` in the Terminal, you should be able to run the program. Power the breadboard and the LED should light, but not just because you applied power -- the chip is running your code, which is lighting the LED. Your code actually changed something in the physical world!
 
@@ -48,19 +48,15 @@ Even those familiar with C (albeit on the desktop) might find a few things odd i
 The following preprocessor directives, again, make our life easier:
 
 * `#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` turn a bit on, or *set* it (since T|T = F|T = T)
-
 * `#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))` turn a bit off, or *clear* it (T&F = F&F = F)
-
 * `#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))` check the state of a bit (returns T&T = T or T&F = F)
 
 Using the preprocessor "functions" to set up the LED:
 
 * `SETBIT(DDRB, PINB1);` set the Data Direction of Port B, Pin 1 to output
-
 * `SETBIT(PORTB, PINB1);` set Port B, Pin 1 to turn on LED
-
-
-
+  
+  
 Now it's time to move on to the [next lesson](01-02-LED-button.md)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
