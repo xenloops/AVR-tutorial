@@ -41,21 +41,23 @@ Yes, that's right. Software is what code written for the desktop, web sites, and
 1. After the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) are finished on BusPirate and you see `avrdude done.  Thank you` in the Terminal, you should be able to run the program. Power the breadboard and the LED should light, but not just because you applied power -- the chip is running your code, which is lighting the LED. Your code actually changed something in the physical world!
 
 ### More about the firmware
-Even for those familiar with C (albeit on the desktop) might find a few things odd in the code. Let's clear up some questions.
+Even those familiar with C (albeit on the desktop) might find a few things odd in the code. Let's clear up some questions.
 
-`#include <avr/io.h>` is the header file that makes our AVR coding life easier.
+* `#include <avr/io.h>` is the header file that makes our AVR coding life easier.
 
 The following preprocessor directives, again, make our life easier:
 
-`#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` turn a bit on, or *set* it (since T|T = F|T = T)
+* `#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` turn a bit on, or *set* it (since T|T = F|T = T)
 
-`#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))` turn a bit off, or *clear* it (T&F = F&F = F)
+* `#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))` turn a bit off, or *clear* it (T&F = F&F = F)
 
-`#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))` check the state of a bit (returns T&T = T or T&F = F)
+* `#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))` check the state of a bit (returns T&T = T or T&F = F)
 
-`SETBIT(DDRB, PINB1);` Set the Data Direction of Port B, Pin 1 to output
+Using the preprocessor "functions" to set up the LED:
 
-`SETBIT(PORTB, PINB1);` Set Port B, Pin 1 to turn on LED
+* `SETBIT(DDRB, PINB1);` set the Data Direction of Port B, Pin 1 to output
+
+* `SETBIT(PORTB, PINB1);` set Port B, Pin 1 to turn on LED
 
 
 
