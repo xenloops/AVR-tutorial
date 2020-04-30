@@ -23,6 +23,7 @@ LEDs are semiconductors that normally allow current in one direction -- that's w
 1. Stick the resistor between the LED and the negative power rail. 
 
 Your breadboard should look something like this:
+
 ![LED connection closeup](images/01-01-LED-connect.jpg)
 
 #### Firmware
@@ -39,7 +40,32 @@ Yes, that's right. Software is what code written for the desktop, web sites, and
 `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-01.hex`
 1. After the [blinkenlights](https://en.wikipedia.org/wiki/Blinkenlights) are finished on BusPirate and you see `avrdude done.  Thank you` in the Terminal, you should be able to run the program. Power the breadboard and the LED should light, but not just because you applied power -- the chip is running your code, which is lighting the LED. Your code actually changed something in the physical world!
 
-Now it's time to move on to the [next lesson](01-02-LED-button.md) (if not available yet, keep your eyes open)!
+### More about the firmware
+Even for those familiar with C (albeit on the desktop) might find a few things odd in the code. Let's clear up some questions.
+
+`#include <avr/io.h>` is the header file that makes our AVR coding life easier.
+
+The following preprocessor directives, again, make our life easier:
+
+`#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` 
+
+... turn a bit on, or *set* it (since T|T = F|T = T)
+
+`#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))`
+
+... turn a bit off, or *clear* it (T&F = F&F = F)
+
+`#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))`
+
+... check the state of a bit (returns T&T = T or T&F = F)
+
+`SETBIT(DDRB, PINB1);` Set the Data Direction of Port B, Pin 1 to output
+
+`SETBIT(PORTB, PINB1);` Set Port B, Pin 1 to turn on LED
+
+
+
+Now it's time to move on to the [next lesson](01-02-LED-button.md)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
