@@ -47,17 +47,11 @@ Even for those familiar with C (albeit on the desktop) might find a few things o
 
 The following preprocessor directives, again, make our life easier:
 
-`#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` 
+`#define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))` turn a bit on, or *set* it (since T|T = F|T = T)
 
-... turn a bit on, or *set* it (since T|T = F|T = T)
+`#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))` turn a bit off, or *clear* it (T&F = F&F = F)
 
-`#define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))`
-
-... turn a bit off, or *clear* it (T&F = F&F = F)
-
-`#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))`
-
-... check the state of a bit (returns T&T = T or T&F = F)
+`#define CHECKBIT(ADDRESS,BIT) (ADDRESS & (1<<BIT))` check the state of a bit (returns T&T = T or T&F = F)
 
 `SETBIT(DDRB, PINB1);` Set the Data Direction of Port B, Pin 1 to output
 
