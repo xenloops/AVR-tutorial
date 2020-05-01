@@ -1,4 +1,4 @@
-# AVR-tutorial
+# AVR tutorial
 Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family of microprocessors.
 
 ## Lesson 0: Lab Setup
