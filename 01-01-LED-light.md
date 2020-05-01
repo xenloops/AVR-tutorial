@@ -1,4 +1,4 @@
-# AVR-tutorial
+# AVR tutorial
 Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family of microprocessors.
 
 ## Season 1, Lesson 1: You light up my life
