@@ -66,7 +66,7 @@ The second version introduces a primitive delay function:
 * `#define F_CPU 1000000UL` specify what speed the chip is running
 * `#include <util/delay.h>` use the delay header file
 * `#define WAIT(ms); _delay_ms(ms)` simplify calling the `_delay_ms()` function
-* `WAIT(100);` stops processing for 0.1 second
+* `WAIT(100);` stop processing for 0.1 second
 
 
 Now it's time to move on to the [next lesson](01-03-LED-button-int.md) (if not available yet, keep your eyes open)!
