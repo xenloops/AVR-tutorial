@@ -28,13 +28,13 @@ Your breadboard should look something like this:
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
-   `avr-gcc -g -Os -mmcu=atmega88 -c 01-02.c`
+   `avr-gcc -g -Os -mmcu=atmega88 -c 01-03.c`
    
-   `avr-gcc -g -mmcu=atmega88 -o 01-02.elf 01-02.o`
+   `avr-gcc -g -mmcu=atmega88 -o 01-03.elf 01-03.o`
    
-   `avr-objcopy -j .text -j .data -O ihex 01-02.elf 01-02.hex`
+   `avr-objcopy -j .text -j .data -O ihex 01-03.elf 01-03.hex`
    
-   `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-02.hex`
+   `sudo avrdude -c buspirate -P /dev/ttyUSB0 -p m88p -U flash:w:01-03.hex`
 
 Power the breadboard and press the button. The LED should be a lot more responsive than before. (It's not perfect, but we can deal with that later. It's a common problem with spurious signals from physical devices like buttons that can be remedied in code by a process called debouncing.) Voila, the magic of interrupts!
 
