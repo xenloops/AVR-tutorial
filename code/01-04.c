@@ -8,11 +8,9 @@
 * s01e04 -- Interrupting flasher
 */
 
-//#define F_CPU 1000000UL
+#define F_CPU 1000000UL
 #include <avr/io.h>
-//#include <util/delay.h>
 #include <avr/interrupt.h>
-//#include <stdlib.h>
 
 #define SETBIT(ADDRESS,BIT) (ADDRESS |= (1<<BIT))
 #define CLEARBIT(ADDRESS,BIT) (ADDRESS &= ~(1<<BIT))
