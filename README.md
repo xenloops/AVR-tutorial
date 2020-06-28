@@ -14,7 +14,7 @@ Many seasoned software engineers have the impression that writing and flashing f
 1. [Push a button to light an LED... pushbutton, then toggle.](01-02-LED-button.md)
 1. [Push a button to light an LED... by interrupt.](01-03-LED-button-interrupt.md)
 1. [Flasher: intro to timer and interrupts to flash an LED.](01-04-LED-flasher.md)
-1. Fun with the timer and LEDs: traffic lights!
+1. [Fun with the timer and LEDs: traffic lights!](01-05-traffic-lights.md)
 1. Dimming light: intro to PWM to pulsate an LED.
 1. Fun with a numeric LED: countdown, cycle around.
 1. Combine button with LED counter and randomizer. LED shows numbers flashing by, when button pressed it stops on NEXT number generated.
