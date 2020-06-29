@@ -3,7 +3,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ## Season 1, Lesson 5: Traffic lights
 
-|![Traffic light](images/00-05-traffic1.png)|![Traffic light](images/00-05-traffic2.png)|![Traffic light](images/00-05-traffic3.jpg)|
+|![Traffic light](images/00-05-traffic1.png)|![Traffic light](images/00-05-traffic2.png)|![Traffic light](images/00-05-traffic3.png)|
 
 
 ### What you'll need
@@ -14,7 +14,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 If you're stuck with plain white LEDs and don't wish to wait for an order, fear not. Tempora paint does nicely. Just dip an LED in the desired color, let it air dry, and use normally.
 
-![Painting LEDs](images/00-05-traffic-paint.jpg)
+![Painting LEDs](images/00-05-traffic-paint.png)
 
 ### Setup
 #### Hardware
