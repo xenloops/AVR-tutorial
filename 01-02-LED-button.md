@@ -9,7 +9,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 1. A normally open (NO) pushbutton switch.
 1. Another resistor; I used a 10 kilohm one, something to decrease the current flowing to the chip.
 
-![Button](images/01-02-button.jpg)
+![Button](../images/01-02-button.jpg)
 
 A pushbutton, as you know, is a momentary switch that makes a connection when pressed (NO), or released (normally closed, NC), to close or open a circuit. They're everywhere: calculators, keyboards, vehicles, even doorbells. We're going to use one to allow a voltage to one pin on the processor, and when the chip "sees" the signal, it will light the LED.
 
@@ -23,10 +23,10 @@ Yes, yes, this would be simpler to do without the chip -- if all you wanted was 
 
 Your breadboard should look something like this:
 
-![Button connection closeup](images/01-02-button-connect.jpg)
+![Button connection closeup](../images/01-02-button-connect.jpg)
 
 #### Firmware
-1. Download the code from [Code 01-02](code/01-02.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to how the button is set up.
+1. Download the code from [Code 01-02](../code/01-02.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to how the button is set up.
 1. Open a Terminal in the directory holding the code.
 1. Enter the following to compile your C file:  
 `avr-gcc -g -Os -mmcu=atmega88 -c 01-02.c`
@@ -48,7 +48,7 @@ Everything you already set up for this lesson.
 No changes from the first part.
 
 #### Firmware
-1. Download the code from [Code 01-02 Rev A](code/01-02a.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to differences in the behavior from the code in the first part.
+1. Download the code from [Code 01-02 Rev A](../code/01-02a.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to differences in the behavior from the code in the first part.
 1. Enter the same commands as before, replacing "01-02" with "01-02a".
 1. Power the breadboard and press the button. Then press it again. And again. Try holding it down. Pretty cool, eh? But, it's a little glitchy, you'll find. We'll fix that next.
 
