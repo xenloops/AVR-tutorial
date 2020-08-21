@@ -15,7 +15,8 @@ and plentiful. Optionally, also pick up a chip socket. If you need to remove the
 it's not as big a deal to replace the socket.
 1. The processor's datasheet. These are readily available on Microchip's site; either go to the site and search, or simply 
 type e.g. "ATmega88 datasheet" into your search engine of choice. This is the spec you'll work with to find out how to work
-with the chip, which pins are for what, etc. There are also [application notes]() on how to do common tasks, 
+with the chip, which pins are for what, etc. There are also [application notes](https://www.microchip.com/wwwproducts/en/ATmega88) 
+on how to do common tasks, 
 such as [read keyboard input](http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en591996) or how to [optimize
 C code](http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en591830) for AVR use.
 1. Programmer (I use [BusPirate](http://dangerousprototypes.com/docs/Bus_Pirate) and [AVRDUDE](https://www.nongnu.org/avrdude).
@@ -34,7 +35,7 @@ microscopic components within a microchip can be destroyed by static discharges.
 1. Check that the pins on the microchip are straight. If any are bent, carefully straighten them.
 1. Ease the chip's pins into the holes near the middle of the breadboard, such that the chip is straddling the channel 
 bisecting the breadboard lengthwise. Gently press the chip down until its bottom touches the breadboard.
-![Seating the chip](images/00-00-chip-seated.png)
+![Seating the chip](../images/00-00-chip-seated.png)
 1. Find the pinout diagram in the chip's datasheet (make sure you're looking at the right chip format and number) and 
 look for the two power pins: VCC (+) and GND (-). There are probably a couple of pairs depending on the chip you're using.
 The GND you use doesn't matter, and there will probably be one on each side to make life easier. Be sure you don't use AVCC 
@@ -58,7 +59,7 @@ myriad guides that will show you how to make a computer truly useful).
 1. Also install `binutils-avr` and `gcc-avr` from your distro's repository.
 1. Test the connection: open a Terminal, and as root enter: `avrdude -c buspirate -P /dev/ttyUSB0 -p m88p`
 
-There you go, your very own lab setup! Now it's time to move on to the [next lesson](tutorials/01-01-LED-light.md) (if not available yet, keep your eyes open)!
+There you go, your very own lab setup! Now it's time to move on to the [next lesson](01-01-LED-light.md) (if not available yet, keep your eyes open)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
