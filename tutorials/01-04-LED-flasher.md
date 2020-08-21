@@ -16,7 +16,7 @@ The ATMega88 by default runs at 1 MHz (1 million cycles/second) and has a simple
 1. Do everything in [Lesson 1](01-01-LED-light.md) or later.
 
 #### Firmware
-1. Download the code from [Code 01-04](code/01-04.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to the interrupt handling.
+1. Download the code from [Code 01-04](../code/01-04.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to the interrupt handling.
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
