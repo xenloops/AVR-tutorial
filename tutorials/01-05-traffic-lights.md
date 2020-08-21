@@ -51,7 +51,7 @@ As soon as the firmware is finished being flashed, the LEDs should begin flashin
 ### More about the firmware
 We could use a timer interrupt to do the work here as well, but because switching the LEDs on and off in sequence is all the processor is doing, there is no real need for that. However, if you want to do all that mucking about with interrupts for this, go right ahead; it's good practice.
 
-Now it's time to move on to the [next lesson](01-06-LED-PWM.md) (if not available yet, keep your eyes open)!
+Now it's time to move on to the [next lesson](01-06-LED-PWM-pulse.md) (if not available yet, keep your eyes open)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
