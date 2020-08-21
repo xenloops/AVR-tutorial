@@ -21,10 +21,10 @@ Yes, this means connecting the switch in the reverse way from the previous lesso
 
 Your breadboard should look something like this:
 
-![Button connection closeup](images/01-03-button-connect.jpg)
+![Button connection closeup](../images/01-03-button-connect.jpg)
 
 #### Firmware
-1. Download the code from [Code 01-03](code/01-03.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to the interrupt handling.
+1. Download the code from [Code 01-03](../code/01-03.c) and save it to your AVR development directory. Take a look at the code. This one is also simple and commented; pay special attention to the interrupt handling.
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
