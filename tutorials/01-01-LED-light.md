@@ -5,7 +5,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ### What you'll need
 
-1. Everything in [Lesson 0](00-00-lab-setup.md).
+1. Everything in [Lesson 0](tutorials/00-00-lab-setup.md).
 1. A light emitting diode, or LED.
 1. A resistor to protect the LED from the full current of the power supply.
 
@@ -18,7 +18,7 @@ LEDs are semiconductors that normally allow current in one direction -- that's w
 
 ### Setup
 #### Hardware
-1. Do everything in [Lesson 0](00-00-lab-setup.md).
+1. Do everything in [Lesson 0](tutorials/00-00-lab-setup.md).
 1. Grab your LED and insert its leads between the PB1 pin on the processor (pin 15 on the ATmega88) and the adjacent unused hole on the breadboard (but not a power rail). Check which way the LED is facing -- the lead from the smaller piece of metal goes to PB1 on the chip.
 1. Stick the resistor between the LED and the negative power rail. 
 
@@ -57,7 +57,7 @@ Using the preprocessor "functions" to set up the LED:
 * `SETBIT(PORTB, PINB1);` set Port B, Pin 1 to turn on LED
   
   
-Now it's time to move on to the [next lesson](01-02-LED-button.md)!
+Now it's time to move on to the [next lesson](tutorials/01-02-LED-button.md)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
