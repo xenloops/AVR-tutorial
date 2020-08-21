@@ -3,7 +3,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ## Season 1, Lesson 5: Traffic lights
 
-|![Traffic light](images/00-05-traffic1.png)|![Traffic light](images/00-05-traffic2.png)|![Traffic light](images/00-05-traffic3.png)|
+|![Traffic light](../images/00-05-traffic1.png)|![Traffic light](../images/00-05-traffic2.png)|![Traffic light](../images/00-05-traffic3.png)|
 
 
 ### What you'll need
@@ -14,7 +14,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 If you're stuck with plain white LEDs and don't wish to wait for an order, fear not. Tempora paint does nicely. Just dip an LED in the desired color, let it air dry, and use normally.
 
-![Painting LEDs](images/00-05-traffic-paint.png)
+![Painting LEDs](../images/00-05-traffic-paint.png)
 
 ### Setup
 #### Hardware
@@ -34,7 +34,7 @@ If you're stuck with plain white LEDs and don't wish to wait for an order, fear 
 
 
 #### Firmware
-1. Download the code from [Code 01-05](code/01-05.c) and save it to your AVR development directory. Take a look at the code, paying attention to the setup of the constants and the timing in the while loop. This code is also simple and commented.
+1. Download the code from [Code 01-05](../code/01-05.c) and save it to your AVR development directory. Take a look at the code, paying attention to the setup of the constants and the timing in the while loop. This code is also simple and commented.
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
