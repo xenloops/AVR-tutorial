@@ -5,7 +5,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ### What you'll need
 
-1. Everything in [Lesson 0](tutorials/00-00-lab-setup.md).
+1. Everything in [Lesson 0](00-00-lab-setup.md).
 1. A light emitting diode, or LED.
 1. A resistor to protect the LED from the full current of the power supply.
 
@@ -13,22 +13,22 @@ Please note that you really do want to protect your LEDs. LEDs may be cheap (hop
 
 LEDs are semiconductors that normally allow current in one direction -- that's what makes them diodes. It's essential to remember that they must be connected the right direction in order to do their job. If you look closely at the LED, you'll see that one lead ends in a larger plate than the other. The larger plate goes to the negative side of the power source.
 
-|Positive|![LED](images/01-01-LED.jpg)|Negative|
+|Positive|![LED](../images/01-01-LED.jpg)|Negative|
 |--|--|--|
 
 ### Setup
 #### Hardware
-1. Do everything in [Lesson 0](tutorials/00-00-lab-setup.md).
+1. Do everything in [Lesson 0](00-00-lab-setup.md).
 1. Grab your LED and insert its leads between the PB1 pin on the processor (pin 15 on the ATmega88) and the adjacent unused hole on the breadboard (but not a power rail). Check which way the LED is facing -- the lead from the smaller piece of metal goes to PB1 on the chip.
 1. Stick the resistor between the LED and the negative power rail. 
 
 Your breadboard should look something like this:
 
-![LED connection closeup](images/01-01-LED-connect.jpg)
+![LED connection closeup](../images/01-01-LED-connect.jpg)
 
 #### Firmware
 Yes, that's right. Software is what code written for the desktop, web sites, and mobile apps is turned into. Firmware is what the black magic awesomeness you're about to write gets compiled into, destined for uploading (or flashing) to run on an actual chip -- without all that mucking about with runtime interpreters or operating systems. This is the big time, my friend.
-1. Download the code from [Code 01-01](code/01-01.c) and save it to a convenient directory. Take a look at the code. This one's simple and commented, but you should start to get a feel for how it's done.
+1. Download the code from [Code 01-01](../code/01-01.c) and save it to a convenient directory. Take a look at the code. This one's simple and commented, but you should start to get a feel for how it's done.
 1. Open a Terminal in the directory holding the code. Oh yes, a Terminal. No wimpy IDEs or childish GUIs for you, you're going hard core unto the breach. Don't worry, you got this.
 1. Enter the following to compile your C file:  
 `avr-gcc -g -Os -mmcu=atmega88 -c 01-01.c`
@@ -57,7 +57,7 @@ Using the preprocessor "functions" to set up the LED:
 * `SETBIT(PORTB, PINB1);` set Port B, Pin 1 to turn on LED
   
   
-Now it's time to move on to the [next lesson](tutorials/01-02-LED-button.md)!
+Now it's time to move on to the [next lesson](01-02-LED-button.md)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
