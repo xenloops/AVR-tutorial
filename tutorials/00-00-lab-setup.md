@@ -5,7 +5,7 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ### What you'll need
 
-|![Breadboard](images/00-00-breadboard.png)|![Microprocessor](images/00-00-avr-chip.png)|![BusPirate](images/00-00-BusPirate.jpg)|
+|![Breadboard](../images/00-00-breadboard.png)|![Microprocessor](../images/00-00-avr-chip.png)|![BusPirate](../images/00-00-BusPirate.jpg)|
 |--|--|--|
 |Breadboard|Microprocessor|BusPirate|
 
