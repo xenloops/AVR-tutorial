@@ -18,7 +18,7 @@ Fortunately, most microcontrollers have a built-in way to control PWM, so you do
 1. Do everything in [Lesson 1](01-01-LED-light.md), except: change the LED and resistor part of the circuit such that the positive conductor on the LED is connected to the PD6 pin (pin 12 on the ATmega88) and the resistor connects once again between the negative conductor on the LED and the negative power rail. We do this to make PWM slightly easier, as we're only dealing with the 8-bit counter and registers. (The other PWMs on many AVRs involve 16-bit registers, which add a complexity we don't want here.)
 
 #### Firmware
-1. Download the code from [Code 01-06](code/01-06.c) and save it to your AVR development directory. Take a look at the code, paying attention to the setup of the registers for PWM.
+1. Download the code from [Code 01-06](../code/01-06.c) and save it to your AVR development directory. Take a look at the code, paying attention to the setup of the registers for PWM.
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
