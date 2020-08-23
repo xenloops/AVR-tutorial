@@ -34,7 +34,7 @@ where % is the modulo function, which just gives the remainder after division.
 
 If you want to see what I did:
 
-1. Download the code from [Code 01-06a](code/01-06a.c) and save it to your AVR development directory. Take a look at the choices I made for this.
+1. Download the code from [Code 01-06a](../code/01-06a.c) and save it to your AVR development directory. Take a look at the choices I made for this.
 1. Open a Terminal in the directory holding the code.
 1. As in previous lessons, enter the following commands in order: 
 
@@ -48,7 +48,7 @@ If you want to see what I did:
 
 As soon as the firmware is finished being flashed, the LED should begin pulsing smoothly like a candle.
 
-Now it's time to move on to the [next lesson](01-07.md) (if not available yet, keep your eyes open)!
+Now it's time to move on to the [next lesson](01-07-LED-num-countdown.md) (if not available yet, keep your eyes open)!
 
 As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
 
