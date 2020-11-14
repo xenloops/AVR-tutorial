@@ -3,6 +3,8 @@ Easy-to-grasp, step-by-step tutorials for creating firmware for the AVR family o
 
 ## Application Extra! LED candle
 
+[![LED candle!](../images/01-06a-still.png)](https://youtu.be/oSFI1G49NLE "LED candle!")
+
 Besides creating a more pleasing control panel for the Batmobile, what can we do with PWM? Some cool stuff. My favorite would be driving a DC motor, which will lead us to robotics. But not quite yet. We can also create Switching Mode Power Supplies (SMPS), but that doesn't turn my dial.
 
 A few years ago, I bought a couple of electronic candles. (Wanted something that would give the impression of a candle, without the risk of a kid or dog knocking over an open flame.) Still not that impressed with e-candles, but upon seeing the flickering LED I immediately knew how they did it: randomized PWM.
