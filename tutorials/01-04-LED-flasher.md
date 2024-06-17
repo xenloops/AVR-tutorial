@@ -51,5 +51,5 @@ To get interrupts working as a delay timer, we need to do a bit more prep work a
 
 Now it's time to move on to the [next lesson](01-05-traffic-lights.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
