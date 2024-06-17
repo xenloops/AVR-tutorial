@@ -52,5 +52,5 @@ As soon as the firmware is finished being flashed, the LED should begin pulsing 
 
 Now it's time to move on to the [next lesson](01-07-LED-num-countdown.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
