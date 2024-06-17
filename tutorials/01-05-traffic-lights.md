@@ -53,5 +53,5 @@ We could use a timer interrupt to do the work here as well, but because switchin
 
 Now it's time to move on to the [next lesson](01-06-LED-PWM-pulse.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
