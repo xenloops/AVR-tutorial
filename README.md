@@ -24,6 +24,6 @@ Many seasoned software engineers have the impression that writing and flashing f
 
 I've been fascinated by and have experimented in electronics since I was a kid. My parents gave me the famous "150-in-One Electronic Project Kit" from Radio Shack when I turned 10, and I couldn't stop inserting wires into spring clips in the cardboard base. Early in my software engineering career I had the good fortune to work at a consulting company with a number of bright and helpful electrical engineers, who designed and built the prototypes I would flash with firmware it was my job to craft. Atmel AVR chips were the first microprocessors I programmed, and I was hooked. Since then, programming a web site or application just hasn't held the same fascination. In the years since, I would reopen my "projects" boxes and fiddle with a breadboard and some components. Recently I did it again, and decided that it was time to infect others with my interest and fascination with this "dark art."
 
-You can reach me old-school: xenloops at protonmail dot com, or show me some love on Twitter: @xenloops.
+You can reach me at xenloops at protonmail dot com if you have ideas to try out here or questions.
 
 Enjoy!
