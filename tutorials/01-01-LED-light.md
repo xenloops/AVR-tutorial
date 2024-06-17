@@ -59,5 +59,5 @@ Using the preprocessor "functions" to set up the LED:
   
 Now it's time to move on to the [next lesson](01-02-LED-button.md)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
