@@ -61,5 +61,5 @@ myriad guides that will show you how to make a computer truly useful).
 
 There you go, your very own lab setup! Now it's time to move on to the [next lesson](01-01-LED-light.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
