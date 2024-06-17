@@ -37,5 +37,5 @@ The settings for the PWM duty cycle are set up as preprocessor constants early i
 
 Now it's time to move on to the [next lesson](01-06a-LED-candle.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
