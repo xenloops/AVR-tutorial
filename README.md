@@ -9,7 +9,7 @@ Many seasoned software engineers have the impression that writing and flashing f
 
 [0. Set up lab: breadboard, AVR chip, BusPirate, AVR programmer, text editor](tutorials/00-00-lab-setup.md)
 
-### Season 1
+### Season 1: lighting and counting
 1. [Light an LED: simple program to light LED programmatically.](tutorials/01-01-LED-light.md)
 1. [Push a button to light an LED... pushbutton, then toggle.](tutorials/01-02-LED-button.md)
 1. [Push a button to light an LED... by interrupt.](tutorials/01-03-LED-button-interrupt.md)
