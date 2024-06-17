@@ -71,5 +71,5 @@ The second version introduces a primitive delay function:
 
 Now it's time to move on to the [next lesson](01-03-LED-button-interrupt.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
