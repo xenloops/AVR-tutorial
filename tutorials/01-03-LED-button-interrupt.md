@@ -55,5 +55,5 @@ We really should put the processor into a sleep mode to save energy, but this is
 
 Now it's time to move on to the [next lesson](01-04-LED-flasher.md) (if not available yet, keep your eyes open)!
 
-As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com or @xenloops on Twitter.
+As always, please send questions, corrections, and/or snide remarks to xenloops at protonmail dot com.
 
